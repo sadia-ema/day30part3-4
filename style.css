@@ -2,3 +2,44 @@
     background: #E5ECF0;
     padding: 50px 0;
 }
+.heading{
+    background: #F5F4F6;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+img{
+    height: 510px;
+    width: auto;
+}
+/* img hover */
+.img{}
+.img-img{
+    position: relative;
+}
+/* rgba(49, 49, 49, 0.459) */
+.img-content{
+   background: linear-gradient(to left,rgba(148, 92, 92, 0.507),rgba(105, 209, 174, 0.513),rgba(0, 0, 255, 0.507));
+    color: #fff;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    width: 98%;
+    height: 98%;
+    text-align: center;
+    visibility: hidden;
+    opacity: 0;
+    transition: .5s;
+    margin: auto;
+    margin-top: 5px;
+}
+.img-content h2{
+    font-size: 42px;
+    margin-top: 332px;
+}
+.img-img:hover .img-content{
+    visibility: visible;
+    opacity: 1;
+}
